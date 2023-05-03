@@ -1,0 +1,26 @@
+
+.mainDivNav{
+    background-color: black;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+
+
+.linkDiv a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 2rem;
+
+}
+
+
+.search{
+    background-color: #d1d1d1;
+
+}

@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.topLogDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    position: relative;
+}
+
+.mainLogDiv{
+    background-color: rgb(219, 240, 240);
+    height: 31rem;
+    width: 46rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 2%;
+     /* margin-left: 35rem;
+    margin-top: 12rem; */
+    position: relative;
+}
+
+
+.childDiv{
+    background-color: rgba(224, 224, 224, 0.487);
+    width: 30rem;
+    height: 22rem;
+    /* display: flex;
+    justify-content: center; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.379);
+    border-radius: 2%;
+    display: flex;
+    position: absolute;
+}
+
+
+.left{
+    background-color: rgb(254, 254, 254);
+    width: 55%;
+    border-radius: 2% 0 0 2%;
+    position: relative;
+    
+}
+
+.right{
+    background-color:rgb(254, 254, 254);
+    width: 45%;
+    border-radius: 0 2% 2% 0;
+    position: relative;
+}
+
+.heading{
+    /* margin-bottom: 2rem; */
+    padding: 2rem;
+    color: aqua;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    /* margin-bottom: 1rem; */
+    outline: none;
+    background-color: transparent;
+    
+}
+
+.inputDiv1 {
+    position: relative;
+    padding: 1rem;
+    margin-right: 15rem;
+}
+
+.inputDiv1  input{
+    position: absolute;
+}
+
+
+.inputDiv2{
+    position: relative;
+    padding: 1rem;
+    margin-right: 15rem;
+
+}
+
+.inputDiv2  input{
+    position: absolute;
+}
+
+
+.box{
+    padding:0px;
+
+}
+
+i{
+    position: absolute;
+    margin-left: 9rem;
+   
+}
+
+.btndiv{
+    padding: 1rem;
+}
+
+.btn{
+    border: none;
+    height: 2rem;
+    width: 8rem;
+    background-color: rgb(101, 192, 189);
+    font-size: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+    color:white;
+
+
+
+}
+
+
+.helpdiv{
+    color:rgb(101, 192, 189) ;
+    position: absolute;
+    bottom: 3%;
+    left: 70%;
+    cursor: pointer;
+    
+}
+
+
+h4{
+    margin-bottom: .5rem;
+}
+
+
+.svgwave2{
+    position: relative;
+    border-radius: 2%;
+   
+}
+
+.pcicon{
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    left: 10%;
+    top: 15%;
+    z-index: 1;
+    
+}
+
+.DEFN{
+    position: absolute;
+    z-index: 1;
+    font-size: .6REM;
+    color: aliceblue;
+    bottom: 5%;
+left: 2%;
+}
+
+.wel{
+    position: absolute;
+    z-index: 1;
+    writing-mode: vertical-rl;
+    color: hsl(178, 45%, 73%);
+    top: 10%;
+}
+
+
+.svgwave1{
+    border-radius: 2%;
+}

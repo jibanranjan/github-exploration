@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mainUserDiv{
+    background-color: rgb(31, 50, 85);
+    width: 100vw;
+    /* height: 150vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.fstopBoxDiv{
+
+    width: 32rem;
+    height: 14rem;
+    border: 1px solid white;
+    margin-top: 4rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* margin-left: 25rem; */
+   
+
+
+}
+
+.leftImgDiv{
+    width: 20%;
+}
+
+
+.rightInfoDiv{
+    width: 80%;
+}
+
+.nameHeading{
+    color: antiquewhite;
+    margin-top: 1rem;
+    margin-bottom: .7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.repoInfoNumber{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+   
+    
+}
+
+.repo13{
+    color: white;
+    background-color: blueviolet;
+    height: 1.5rem;
+    width: 6rem;
+    border-radius: 10px;
+
+}
+
+.followers49{
+    background-color: rgb(208, 69, 115);
+    color: white;
+    height: 1.5rem;
+    width: 6rem;
+    border-radius: 10px;
+    
+
+}
+
+.following24{
+    background-color: rgb(57, 159, 125);
+    color: white;
+    height: 1.5rem;
+    width: 6rem;
+    border-radius: 10px;
+}
+
+.gitbtn{
+    border: 1px solid white;
+    color: aliceblue;
+    width: 7rem;
+    font-size: 11px;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 1%;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 7rem;
+    margin-top: 1rem;
+    cursor: pointer;
+
+
+}
+
+.detailsAddress{
+    color: aliceblue;
+    margin-top: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+    flex-direction: column;
+}
+
+i{
+    width: 15rem;
+    height: 15rem;
+
+}
+
+.midTextDiv{
+    margin-top: 5rem;
+    color: aliceblue;
+}
+
+.frstBranch , .scndBranch, .thrdBranch, .frthBranch, .fthBranch {
+    height: 10rem;
+    width: 49rem;
+    background-color: rgb(233, 179, 6);
+    margin-top: 4rem;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+.profilePhoto{
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: .4rem;
+    width: 7rem;
+}
+
+.repoNumber{
+    margin-left: 4rem;
+}
